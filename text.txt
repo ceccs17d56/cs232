@@ -1,0 +1,240 @@
+Script started on Thursday 10 February 2019 08:33:27 PM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls
+123.txt  command.txt  [0m[01;34mDownloads[0m         [01;34mMusic[0m     [01;34mTemplates[0m
+abc.txt  [01;34mDesktop[0m      d.txt             [01;34mPictures[0m  [01;34mVideos[0m
+ad.txt   [01;34mDocuments[0m    examples.desktop  [01;34mPublic[0m
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls -l
+total 60
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:50 123.txt
+-rw-rw-r-- 1 s4d2 s4d2   12 Feb  7 21:42 abc.txt
+-rw-rw-r-- 1 s4d2 s4d2   16 Feb  7 23:01 ad.txt
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 23:04 command.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDocuments[0m
+drwxr-xr-x 3 s4d2 s4d2 4096 Feb  7 22:14 [01;34mDownloads[0m
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:45 d.txt
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 21:10 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mVideos[0m
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls-l
+ls-l: command not found
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls -l
+total 60
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:50 123.txt
+-rw-rw-r-- 1 s4d2 s4d2   12 Feb  7 21:42 abc.txt
+-rw-rw-r-- 1 s4d2 s4d2   16 Feb  7 23:01 ad.txt
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 23:04 command.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDocuments[0m
+drwxr-xr-x 3 s4d2 s4d2 4096 Feb  7 22:14 [01;34mDownloads[0m
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:45 d.txt
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 21:10 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mVideos[0m
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls -lt
+total 60
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 23:04 command.txt
+-rw-rw-r-- 1 s4d2 s4d2   16 Feb  7 23:01 ad.txt
+drwxr-xr-x 3 s4d2 s4d2 4096 Feb  7 22:14 [0m[01;34mDownloads[0m
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:50 123.txt
+-rw-rw-r-- 1 s4d2 s4d2    8 Feb  7 21:45 d.txt
+-rw-rw-r-- 1 s4d2 s4d2   12 Feb  7 21:42 abc.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mVideos[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 21:10 examples.desktop
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ls 123.txt[K[Kxt* -d
+123.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ alias ll='ls -al'
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ll
+total 120
+drwxr-xr-x 16 s4d2 s4d2 4096 Feb  7 23:04 [0m[01;34m.[0m
+drwxr-xr-x 11 root root 4096 Feb  7 21:10 [01;34m..[0m
+-rw-rw-r--  1 s4d2 s4d2    8 Feb  7 21:50 123.txt
+-rw-rw-r--  1 s4d2 s4d2   12 Feb  7 21:42 abc.txt
+-rw-rw-r--  1 s4d2 s4d2   16 Feb  7 23:01 ad.txt
+-rw-r--r--  1 s4d2 s4d2  220 Feb  7 21:10 .bash_logout
+-rw-r--r--  1 s4d2 s4d2 3771 Feb  7 21:10 .bashrc
+drwx------ 11 s4d2 s4d2 4096 Feb  7 22:52 [01;34m.cache[0m
+-rw-rw-r--  1 s4d2 s4d2    0 Feb  7 23:04 command.txt
+drwx------ 15 s4d2 s4d2 4096 Feb  7 23:15 [01;34m.config[0m
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDesktop[0m
+-rw-r--r--  1 s4d2 s4d2   25 Feb  7 21:22 .dmrc
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mDocuments[0m
+drwxr-xr-x  3 s4d2 s4d2 4096 Feb  7 22:14 [01;34mDownloads[0m
+-rw-rw-r--  1 s4d2 s4d2    8 Feb  7 21:45 d.txt
+-rw-r--r--  1 s4d2 s4d2 8980 Feb  7 21:10 examples.desktop
+drwx------  2 s4d2 s4d2 4096 Feb  7 21:24 [01;34m.gconf[0m
+drwx------  3 s4d2 s4d2 4096 Feb  7 21:22 [01;34m.gnupg[0m
+-rw-------  1 s4d2 s4d2  342 Feb  7 21:22 .ICEauthority
+drwx------  3 s4d2 s4d2 4096 Feb  7 21:22 [01;34m.local[0m
+drwx------  5 s4d2 s4d2 4096 Feb  7 21:24 [01;34m.mozilla[0m
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mMusic[0m
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPictures[0m
+-rw-r--r--  1 s4d2 s4d2  655 Feb  7 21:10 .profile
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mPublic[0m
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mTemplates[0m
+drwxr-xr-x  2 s4d2 s4d2 4096 Feb  7 21:22 [01;34mVideos[0m
+-rw-------  1 s4d2 s4d2   57 Feb  7 21:22 .Xauthority
+-rw-------  1 s4d2 s4d2   82 Feb  7 21:22 .xsession-errors
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ unalias ll
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat abc.[K[K[K[K> ac[K[K12.txt
+1
+2
+3
+4
+5
+^Z
+[1]+  Stopped                 cat > 12.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat 12.txt
+1
+2
+3
+4
+5
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat >c.txt
+a
+s
+d
+f
+g
+^Z
+[2]+  Stopped                 cat > c.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat c.txt
+a
+s
+d
+f
+g
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ paste 12.txt c.txt
+1	a
+2	s
+3	d
+4	f
+5	g
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep --help
+Usage: grep [OPTION]... PATTERN [FILE]...
+Search for PATTERN in each FILE or standard input.
+PATTERN is, by default, a basic regular expression (BRE).
+Example: grep -i 'hello world' menu.h main.c
+
+Regexp selection and interpretation:
+  -E, --extended-regexp     PATTERN is an extended regular expression (ERE)
+  -F, --fixed-strings       PATTERN is a set of newline-separated strings
+  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)
+  -P, --perl-regexp         PATTERN is a Perl regular expression
+  -e, --regexp=PATTERN      use PATTERN for matching
+  -f, --file=FILE           obtain PATTERN from FILE
+  -i, --ignore-case         ignore case distinctions
+  -w, --word-regexp         force PATTERN to match only whole words
+  -x, --line-regexp         force PATTERN to match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM matches
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print the file name for each match
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only the part of a line matching PATTERN
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=FILE_PATTERN  search only files that match FILE_PATTERN
+      --exclude=FILE_PATTERN  skip files and directories matching FILE_PATTERN
+      --exclude-from=FILE   skip files matching any file pattern from FILE
+      --exclude-dir=PATTERN  directories that match PATTERN will be skipped.
+  -L, --files-without-match  print only names of FILEs containing no match
+  -l, --files-with-matches  print only names of FILEs containing matches
+  -c, --count               print only a count of matching lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+  -u, --unix-byte-offsets   report offsets as if CRs were not there
+                            (MSDOS/Windows)
+
+'egrep' means 'grep -E'.  'fgrep' means 'grep -F'.
+Direct invocation as either 'egrep' or 'fgrep' is deprecated.
+When FILE is -, read standard input.  With no FILE, read . if a command-line
+-r is given, - otherwise.  If fewer than two FILEs are given, assume -h.
+Exit status is 0 if any line is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat >7.txt[1P.txt9.txt[C[C[C[C
+HELLO FOLKS 
+^Z
+[3]+  Stopped                 cat > 9.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat 9.txt
+HELLO FOLKS 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat > [Kc.txt
+HELLO WORLD
+^Z
+[4]+  Stopped                 cat > c.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cat >c.txt[1Pc.txt
+HELLO WORLD
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ paste 9.txt c.txt
+HELLO FOLKS 	HELLO WORLD
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep HELLO 9.txt
+[01;31m[KHELLO[m[K FOLKS 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep World 9.yxy[K[K[Ktxt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep World 9.txt[C[1P 9.txt[1P 9.txt[1P 9.txt[1P 9.txtO 9.txtR 9.txtL 9.txtD 9.txt[C 9.txt
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep WORLD  9.txt[1P.txtc.txt
+HELLO [01;31m[KWORLD[m[K
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep flag *[K[K[K[K[K[KHELLO*.txt
+HELLO
+
+^C
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ join 9.txt c.txt
+HELLO FOLKS  WORLD
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ join c.txt 9.ttx[K[Kxt
+HELLO WORLD FOLKS 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 10 February 2019 09:13:56 PM IST
