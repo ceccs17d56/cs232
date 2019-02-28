@@ -1,0 +1,9 @@
+Script started on Thursday 07 February 2019 11:40:08 AM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ echo "k c a'[K".[K > mj
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ cut -d' ' -f1 mj
+k
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 07 February 2019 11:53:29 AM IST
