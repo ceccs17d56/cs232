@@ -1,0 +1,86 @@
+Script started on Thursday 28 March 2019 11:34:51 AM IST
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ ssh cs17d56@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ ssh cs17d56@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:24:47 2019 from 192.168.0.60
+$ ls
+examples.desktop  newfile  s4students2
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ scp -r task2 cs71[K[K17d56@192.168.0.30:~/newfile
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+result_s1.pdf                                                             0%    0     0.0KB/s   --:-- ETAresult_s1.pdf                                                           100%   24KB  23.8KB/s   00:00    
+result_noline.txt                                                         0%    0     0.0KB/s   --:-- ETAresult_noline.txt                                                       100%   12KB  12.5KB/s   00:00    
+result_s1.txt                                                             0%    0     0.0KB/s   --:-- ETAresult_s1.txt                                                           100%   36KB  36.5KB/s   00:00    
+result_CS.txt                                                             0%    0     0.0KB/s   --:-- ETAresult_CS.txt                                                           100%   12KB  12.5KB/s   00:00    
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ ssh cscp -r task2 cs17d56@192.168.0.30:~/newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Psh cs17d56@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:45:17 2019 from 192.168.0.60
+$ ls
+examples.desktop  newfile  s4students2
+$ cd newfile
+$ ls
+file.txt  task	task2  task_sftp
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ rsync -a s2resukr[Kts[K[K[Kltd[Ks cs17d556[K[K6@192.168.0.30~[K:~/newfile
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ rsync -a s2results cs17d56@192.168.0.30:~/newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pssh cs17d56@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:47:12 2019 from 192.168.0.60
+$ ls
+examples.desktop  newfile  s4students2
+$ cd newfile
+$ ls
+file.txt  s2results  task  task2  task_sftp
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ exit
+exit
+
+Script done on Thursday 28 March 2019 11:45:42 AM IST
