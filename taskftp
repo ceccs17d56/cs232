@@ -1,0 +1,54 @@
+Script started on Thursday 28 March 2019 09:48:53 AM IST
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ sftp cs17d56@192.2[K168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d56@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> cd..[K[K ..
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   hari      ieeecec   
+sftp> cd cs17d56
+sftp> ls
+examples.desktop    s4students          
+sftp> get -r s4[Ksftp> get -r s4students/[K2
+File "/home/cs17d56/s4students2" not found.
+sftp> ptu [K[Kut -r s4
+s4d_student.txt                                                                 
+s4d_student_details.txt                                                         
+s4d_student_registor_number_and_name.txt                                        
+s4students/                                                                     
+s4students2/                                                                    
+
+[Ksftp> put -r s4students2
+Uploading s4students2/ to /home/cs17d56/s4students2
+Entering s4students2/
+s4students2/s4d_student_registor_number.txt     0%    0     0.0KB/s   --:-- ETAs4students2/s4d_student_registor_number.txt   100% 1478     1.4KB/s   00:00    
+s4students2/result_no_newline                   0%    0     0.0KB/s   --:-- ETAs4students2/result_no_newline                 100%   12KB  12.5KB/s   00:00    
+s4students2/result_one_per_line                 0%    0     0.0KB/s   --:-- ETAs4students2/result_one_per_line               100%   12KB  12.5KB/s   00:00    
+s4students2/s4d_student_details.txt             0%    0     0.0KB/s   --:-- ETAs4students2/s4d_student_details.txt           100% 3181     3.1KB/s   00:00    
+s4students2/task_gpa1.txt                       0%    0     0.0KB/s   --:-- ETAs4students2/task_gpa1.txt                     100%   14KB  13.5KB/s   00:00    
+s4students2/result_CS_Only.txt                  0%    0     0.0KB/s   --:-- ETAs4students2/result_CS_Only.txt                100%   12KB  12.5KB/s   00:00    
+sftp> cd [K[Kpwd
+Remote working directory: /home/cs17d56
+sftp> cd s4stdude[K[K[K[Kudents2
+sftp> pwd
+Remote working directory: /home/cs17d56/s4students2
+sftp> get s4_students[K-[K_[1@d__student_details.txt
+Fetching /home/cs17d56/s4students2/s4d_student_details.txt to s4d_student_details.txt
+/home/cs17d56/s4students2/s4d_student_details   0%    0     0.0KB/s   --:-- ETA/home/cs17d56/s4students2/s4d_student_details 100% 3181     3.1KB/s   00:00    
+sftp> ec[K[Kexit
+]0;s4d2@CLAB2: ~s4d2@CLAB2:~$ exit
+exit
+
+Script done on Thursday 28 March 2019 09:57:31 AM IST
