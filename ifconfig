@@ -1,0 +1,54 @@
+Script started on Monday 01 April 2019 09:24:43 AM IST
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.60  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7084 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2186 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1930336 (1.9 MB)  TX bytes:328296 (328.2 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:218 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:218 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:25465 (25.4 KB)  TX bytes:25465 (25.4 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfig ehto[K0[K[K[Kth0
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.60  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7142 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2187 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1935607 (1.9 MB)  TX bytes:328362 (328.3 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfig lo
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:218 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:218 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:25465 (25.4 KB)  TX bytes:25465 (25.4 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfig e[K[K[K[K[K[K[K[K[K[Ksudo ifci[Konfig eth0 down
+[sudo] password for cec: 
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 up
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
+exit
+
+Script done on Monday 01 April 2019 09:27:58 AM IST
+Script started on Monday 01 April 2019 09:40:39 AM IST
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.60
+[sudo] password for cec: 
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
+exit
+
+Script done on Monday 01 April 2019 09:42:11 AM IST
