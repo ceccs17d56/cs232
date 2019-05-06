@@ -1,0 +1,306 @@
+Script started on Monday 08 April 2019 11:41:34 PM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ su - cec
+Password: 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update
+[sudo] password for cec: 
+
+0% [Working]
+            
+Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+
+0% [Waiting for headers]
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers]
+                                                                        
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [2 InRelease 8,073 B/109 kB 
+                                                                               
+0% [1 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+
+0% [1 InRelease gpgv 247 kB] [3 InRelease 8,090 B/109 kB 7%]
+                                                            
+0% [1 InRelease gpgv 247 kB]
+                            
+0% [Waiting for headers]
+0% [2 InRelease gpgv 109 kB] [Waiting for headers]
+                                                  
+0% [Waiting for headers]
+0% [3 InRelease gpgv 109 kB] [Waiting for headers]
+                                                  
+0% [Waiting for headers]
+                        
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+
+0% [4 InRelease 8,089 B/107 kB 8%]
+                                  
+0% [Working]
+0% [4 InRelease gpgv 107 kB]
+                            
+100% [Working]
+              
+Fetched 325 kB in 1s (311 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 59%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 71%
+
+Reading package lists... 71%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get upgrade
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages were automatically installed and are no longer required:
+  libphysfs1 libsdl2-image-2.0-0 linux-headers-4.10.0-28
+  linux-headers-4.10.0-28-generic linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-image-4.10.0-28-generic
+  linux-image-4.15.0-45-generic linux-image-extra-4.10.0-28-generic
+  linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic
+  linux-signed-image-4.10.0-28-generic supertux-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install nginx
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+The following packages were automatically installed and are no longer required:
+  libphysfs1 libsdl2-image-2.0-0 linux-headers-4.10.0-28
+  linux-headers-4.10.0-28-generic linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-image-4.10.0-28-generic
+  linux-image-4.15.0-45-generic linux-image-extra-4.10.0-28-generic
+  linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic
+  linux-signed-image-4.10.0-28-generic supertux-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+logout
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 08 April 2019 11:43:00 PM IST

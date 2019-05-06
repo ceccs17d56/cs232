@@ -1,0 +1,18 @@
+Script started on Thursday 25 April 2019 09:43:47 AM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ perl add.pl
+Enter the numbers
+3
+4
+Sum = 7
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 09:44:13 AM IST
+Script started on Thursday 25 April 2019 09:45:14 AM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ perl hellp.pl[1P.plo.pl
+Hello
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 09:45:48 AM IST
+
