@@ -1,0 +1,49 @@
+Script started on Monday 08 April 2019 10:44:47 PM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ su - cce[K[Kec
+Password: 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install vsftpd
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+The following packages were automatically installed and are no longer required:
+  libphysfs1 libsdl2-image-2.0-0 linux-headers-4.10.0-28
+  linux-headers-4.10.0-28-generic linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-image-4.10.0-28-generic
+  linux-image-4.15.0-45-generic linux-image-extra-4.10.0-28-generic
+  linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic
+  linux-signed-image-4.10.0-28-generic supertux-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 12 not upgraded.
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo gedit/etc/vsftpd.conf[C /etc/vsftpd.conf
+\]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ \exit
+logout
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 08 April 2019 10:48:54 PM IST
+
